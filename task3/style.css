@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
+}
+.main_wrapper {
+  max-width: 430px;
+  background-color: rgba(242, 236, 236, 0.56);
+}
+/* ----------------Section1--------------------- */
+.section1 {
+  font-family: "Roboto", sans-serif;
+}
+.section1__text1 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #828282;
+  padding: 28px 0px 0px 45px;
+}
+.section1__number {
+  font-weight: 500;
+  font-size: 40px;
+  color: #0b1354;
+  padding: 6px 0px 0px 45px;
+}
+.section1__text2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #4f4f4f;
+  padding: 6px 0px 0px 45px;
+}
+/* ----------------Section2--------------------- */
+.section2 {
+  display: flex;
+}
+.section1__line {
+  border: 2px solid #ececec;
+  margin-top: 23px;
+}
+.section2__img {
+  background-image: url(/img/round_diagram.png);
+  background-size: contain;
+  width: 279px;
+  height: 279px;
+}
+/* ----------------Section3--------------------- */
+.section3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 29px;
+}
+.section3__1,
+.section3__2,
+.section3__3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+}
+.section3__rectangle1 {
+  width: 21px;
+  height: 8px;
+  background-color: #165baa;
+}
+.section3__rectangle2 {
+  width: 21px;
+  height: 8px;
+  background-color: #f765a3;
+}
+.section3__rectangle3 {
+  width: 21px;
+  height: 8px;
+  background-color: #16bfd6;
+}
+.section3__text1,
+.section3__text2,
+.section3__text3 {
+  color: #4f4f4f;
+}

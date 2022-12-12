@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@400;500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
+}
+.section1,
+.section2 {
+  font-family: "Roboto", sans-serif;
+}
+.main_wrapper {
+  max-width: 430px;
+  background-color: #2c2d33;
+}
+/* ----------------Section1--------------------- */
+.section1__text1 {
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #828282;
+  padding: 28px 0px 0px 45px;
+}
+.section1__number {
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+  padding: 6px 0px 0px 45px;
+}
+.section1__text2 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fff;
+  padding: 6px 0px 0px 45px;
+}
+/* ----------------Section2--------------------- */
+.section2__line {
+  border: 2px solid #4f4f4f;
+  margin-top: 23px;
+}
+.section2__img {
+  background-image: url(./img/table1.svg);
+  background-size: contain;
+  width: 355px;
+  height: 194px;
+  margin: 18px 0px 0px 29px;
+}
+/* ----------------Section3--------------------- */
+.section3 {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  padding-top: 40px;
+  padding-bottom: 31px;
+  display: flex;
+  align-items: center;
+}
+.section3__rectangle1 {
+  width: 21px;
+  height: 8px;
+  background-color: #165baa;
+  margin-left: 73px;
+}
+.section3__rectangle2 {
+  width: 21px;
+  height: 8px;
+  background-color: #a155b9;
+  margin-left: 13px;
+}
+.section3__rectangle3 {
+  width: 21px;
+  height: 8px;
+  background-color: #f765a3;
+  margin-left: 13px;
+}
+.section3__text1,
+.section3__text2,
+.section3__text3 {
+  color: #fff;
+  padding-left: 9px;
+}
