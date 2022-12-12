@@ -34,7 +34,7 @@ h2 {
 }
 
 .one_wrapper .one_img {
-  background-image: url(/task1/img/trend.svg);
+  background-image: url(../task1/img/trend.svg);
   background-repeat: no-repeat;
   background-size: contain;
   width: 364px;
