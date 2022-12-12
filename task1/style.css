@@ -1,0 +1,49 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-style: normal;
+}
+
+.one_wrapper {
+  background: #2c2d33;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  width: 430px;
+}
+
+.one_primary {
+  font: 600 16px "Roboto";
+  padding: 28px 0px 0px 45px;
+  color: #828282;
+}
+
+h1 {
+  font: 500 40px "Roboto";
+  color: #ffffff;
+  padding: 4px 0px 4px 45px;
+}
+
+h2 {
+  color: #ffffff;
+  font: 400 14px "Roboto";
+  padding: 4px 0px 27px 45px;
+}
+.one_line {
+  border-bottom: 2px solid #4f4f4f;
+  margin-bottom: 18px;
+}
+
+.one_wrapper .one_img {
+  background-image: url(/task1/img/trend.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 364px;
+  height: 197px;
+  margin-left: 29px;
+}
+
+.one_text {
+  color: #ffffff;
+  font: 400 12px "Inter";
+  padding: 40px 0px 31px 102px;
+}
